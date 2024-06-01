@@ -83,8 +83,9 @@ section.portfolio div.card{
     width: calc((100% - 68px)/3);
     margin-bottom: 60px;
     text-align: center;
+    vertical-align: top;
 }
-section.portfolio div.card:nth-child(3n+1){
+section.portfolio div.card:nth-child(3n){
     margin-right: 0px;
 }
 section.portfolio div.card img{

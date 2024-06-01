@@ -14,10 +14,10 @@
         margin-right: 20px;
     }
     section.portfolio div.card:nth-child(odd){
-        margin-right: 0px;
-    }
-    section.portfolio div.card:nth-child(even){
         margin-right: 20px;
     }
- 
- }
+    section.portfolio div.card:nth-child(even){
+        
+        margin-right: 0px;
+    }
+}
