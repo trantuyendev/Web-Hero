@@ -1,10 +1,13 @@
 @media only screen and (max-width: 600px) {
+    header {
+        padding: 18px 4px;
+    }
     header nav ul li {
-        margin-right: 12px;
+        margin-right: 10px;
     }
 
     header nav ul li button.btn-contact {
-        padding: 2px 7px;
+        padding: 2px 5px;
     }
 
     section.hero {
@@ -18,7 +21,7 @@
 
     section.hero div.info h1.title,
     section.hero div.info h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     section.portfolio {
