@@ -36,6 +36,7 @@
     div.article-list div.article-item {
         margin: 15px 0px;
         width: 100%;
+        height: auto;
     }
     div.article-list {
         display: block; 
