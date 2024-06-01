@@ -1,0 +1,23 @@
+ @media only screen and (min-device-width: 600px) and (max-device-width: 1024px){
+    section.hero img{
+        width: 300px;
+        height: 300px;
+    }
+    section.hero div.info h1.title{
+        font-size: 40px;
+    }
+    section.hero{
+        padding: 100px 0px;
+    }
+    section.portfolio div.card{
+        width: calc((100% - 20px)/2);
+        margin-right: 20px;
+    }
+    section.portfolio div.card:nth-child(odd){
+        margin-right: 20px;
+    }
+    section.portfolio div.card:nth-child(even){
+        
+        margin-right: 0px;
+    }
+}

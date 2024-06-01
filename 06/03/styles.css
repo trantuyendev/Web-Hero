@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    padding: 20px;
+}
+#frontend {
+    color:#1d6e09;
+    text-decoration: underline;
+}
+.highlight{
+    font-weight: bold;
+    font-style: italic;
+}
+h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+p{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    columns: orange;
+}
+a:hover{
+    color: red ;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+}
+ul li{
+    list-style-position: inside;
+}

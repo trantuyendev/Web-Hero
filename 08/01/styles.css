@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: #FEA500;
+    margin: 20px auto;
+    font-size: 0px;
+
+}
+.box1{
+    width: 300px;
+    background-color: #007F00;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #0000FE;
+    padding-left: 10px;
+}
+.box2{
+    width: 500px;
+    background-color: #0000FE;
+    display: inline-block;
+    font-size: 15px;
+    border: 5px solid #f00;
+    vertical-align: top;
+
+}

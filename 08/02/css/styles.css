@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div.container{
+    text-align: center;
+}
+div.list-link{
+    width: 500px;
+    background-color: #f0e68c;
+    margin: 20px auto;
+    padding: 20px;
+}
+div.list-link a{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 34px;
+    border-radius: 50%
+}
+div.list-link a i{
+    font-size: 50px;
+    line-height: 100px;
+}
+a.facebook{
+    background-color: black;
+    color: white;
+}
+a.twitter{
+    background-color: white;
+    color: blue;
+}
+a.instagram{
+    background-color: palevioletred;
+    color: white;
+}
+div.list-link a:last-child{
+    margin-right: 0px;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --background-boxA: #00757f;
+    --background-boxB: #282746;
+    --margin: 10px; 
+    --width: 1000px;
+}
+div.container{
+    width: var(--width);
+    background-color: #fed049;
+    margin: 100px auto;
+    font-size: 0px;
+}
+div.box{
+    width: calc((var(--width) - 8*var(--margin))/4);
+    color: #fefbff;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: var(--margin);
+    vertical-align: middle;
+    padding: 10px;
+}
+div.box:nth-child(even) {
+    background-color: var(--background-boxB);
+}
+div.box:nth-child(odd) {
+    background-color: var(--background-boxA);
+}

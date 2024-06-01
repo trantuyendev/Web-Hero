@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 20px;
+}
+li {
+    color: purple ;
+}
+h1, h2 {
+    color: blue;
+    margin-bottom: 20px;
+}
+ul{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#submit {
+    background-color: green;
+}
+#courses span{
+    color: red;
+}
+.type {
+    color: magenta;
+}
+input[type=email] {
+    background-color:orange;
+}
+a[href$=".org"]{
+    color: magenta;
+}
+h2.bright{
+    color:cyan;
+}
+

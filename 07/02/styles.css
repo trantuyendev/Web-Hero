@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --width-box: 300px;
+    --height-box: 100px;
+    --width-box-sm: 60px;
+    --height-box-sm: 30px;
+}
+div.box{
+    width: var(--width-box);
+    height: var(--height-box);
+    text-transform: capitalize;
+    background-color: #87e713;
+    text-align: center;
+    line-height: var(--height-box);
+}
+div.bottom-right{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+div.top-left{
+    position: fixed;
+    margin: 0px;
+    left: 0px;
+}
+div.bottom-left{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+div.top-right{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+div.bottom-center{
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    margin-left: calc(var(--width-box)/2*(-1));
+}
+div.right-center{
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    margin-top: calc(var(--height-box)/2*(-1));
+}
+div.left-center{
+    position: fixed;
+    bottom: 50%;
+    left: 0px;
+    margin-bottom: calc(var(--height-box)/2*(-1));
+}
+div.top-center{
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: calc(var(--width-box)/2*(-1));
+}
+div.center-center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: calc(var(--height-box)/2*(-1));
+    margin-left: calc(var(--width-box)/2*(-1));
+}
+div.box-sm{
+    width: var(--width-box-sm);
+    height: var(--height-box-sm);
+    text-transform: uppercase;
+    background-color: #fe0000;
+    text-align: center;
+    line-height: 40px;
+}
+div.ctl{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: calc(var(--height-box-sm)*(-1));
+    margin-left: calc(var(--width-box-sm)*(-1));
+}
+div.ctr{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: calc(var(--height-box-sm)*(-1));
+    margin-right: calc(var(--width-box-sm)*(-1));
+}
+div.cbl{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: calc(var(--height-box-sm)*(-1));
+    margin-left: calc(var(--width-box-sm)*(-1));
+}
+div.cbr{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: calc(var(--height-box-sm)*(-1));
+    margin-right: calc(var(--width-box-sm)*(-1));
+}
+
