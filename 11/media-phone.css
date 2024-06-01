@@ -1,5 +1,45 @@
-@media only screen and (max-width: 600px){
-    
+@media only screen and (max-width: 400px){
+    div.header a.logo {
+        display: none;
+    }
+    div.actions{
+        display: none;
+    }
+    div.header {
+        align-items: center;
+        padding: 25px 15px;
+    }
+    div.header ul.menu li.menu-item {
+        margin-right: 20px;
+    }
+    div.header ul.menu li.menu-item:last-child{
+        margin-right: 0px;
+    }
+    div.hero {
+        padding: 65px 0px;
+    }
+    div.hero div.hero-content h1.hero-title{
+        font-size: 33px;
+    }
+    div.articles {
+        padding: 30px 10px;
+    }
+    div.articles div.title span.title-line {
+        display: none;
+    }
+    div.articles div.title {
+        display: block;
+    }
+    div.article-list div.article-item img.article-thumb {
+        width: 100%;
+    }
+    div.article-list div.article-item {
+        margin: 15px 0px;
+        width: 100%;
+    }
+    div.article-list {
+        display: block; 
+    }
 }
 
 
