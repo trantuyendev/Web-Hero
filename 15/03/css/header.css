@@ -37,8 +37,13 @@ nav.navigation-bar ul.main-menu {
 
 }
 
-nav.navigation-bar ul.main-menu li.menu-item {}
+a.menu-link::first-letter{
 
+    text-transform: uppercase;
+}
+a.menu-link{
+    display: inline-block;
+}
 nav.navigation-bar ul.main-menu li.menu-item a.menu-link:hover {
     color: var(--primary-color);
 }
