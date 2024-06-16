@@ -1,0 +1,83 @@
+/*Phần Danh mục nổi bật*/
+#featured-categories {
+    padding: 72px 80px;
+}
+
+#featured-categories div.featured-categories-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#featured-categories div.featured-categories-wrapper div.featured-category-item {
+    width: 25%;
+    font-size: 20px;
+    color: var(--font-color);
+    border-radius: 15px;
+    background-color: var(--bg-color);
+    text-align: center;
+    justify-content: center;
+}
+
+#featured-categories div.featured-categories-wrapper div.featured-category-item i.fa-solid {
+    color: var(--primary-color);
+}
+
+#featured-categories div.featured-category-item a.featured-category-content {
+    display: block;
+    padding: 21px 0px 21px 0px;
+}
+
+/*Phần Bài viết tiêu điểm*/
+
+#hero-article {}
+
+#hero-article {}
+
+#hero-article div.hero-article-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#hero-article div.hero-article-wrapper div.hero-article-info {}
+
+#hero-article div.hero-article-wrapper div.hero-article-info div.hero-article-info-content {
+    padding: 65px, 15px;
+}
+
+#hero-article div.hero-article-wrapper div.hero-article-info a {
+    width: 89px;
+    height: 34px;
+    color: var(--primary-color);
+    background-color: var(--btn-bg);
+    left: 15px;
+    padding: 5px 19.44px 5px 20px;
+    border-radius: 15px;
+    font-family: Hind;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+#hero-article div.hero-article-wrapper div.hero-article-info h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 45px;
+    color: var(--heading-color);
+    font-weight: 700;
+    line-height: 55px;
+    text-align: left;
+    padding-top: 57px;
+}
+
+#hero-article div.hero-article-wrapper div.hero-article-info p {}
+
+#hero-article div.hero-article-wrapper div.hero-article-image{
+    width: 369.98px;
+    height: 459.97px;
+    border-radius: 15px;
+}
+
+#hero-article div.hero-article-wrapper div.hero-article-image img.hero-article-thumb {}
