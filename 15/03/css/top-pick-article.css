@@ -1,0 +1,101 @@
+/* Phần bài viết nổi bật trong tháng */
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#top-pick-article {
+    padding: 48px auto 48px auto;
+    background-color: var(--bg-color);
+
+}
+
+#top-pick-article div.container {}
+
+#top-pick-article div.container h2.top-pick-article-heading {
+    font-family: var(--heading-font);
+    padding-top: 98px;
+    padding-bottom: 26px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    font-weight: 700;
+    text-align: left;
+    color: var(--heading-color);
+}
+
+#top-pick-article div.top-pick-article-wrapper {
+    display: flex;
+    gap: 30px;
+    
+}
+
+#top-pick-article article.top-pick-article-item {
+    
+
+}
+
+#top-pick-article div.top-pick-article-content {
+    background-color: black;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+
+#top-pick-article div.top-pick-article-content img.top-pick-article-thumb {
+    border-radius: 15px;
+    opacity: 60%;
+    position: relative;
+
+}
+
+#top-pick-article div.top-pick-article-content div.top-pick-article-info {
+    
+}
+
+#top-pick-article div.top-pick-article-info h3.top-pick-article-title {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--bg-color);
+    position: absolute;
+
+}
+
+#top-pick-article h3.top-pick-article-title a.top-pick-article-link {
+    position: relative;
+    display: blo;
+}
+
+#top-pick-article div.top-pick-article-info div.top-pick-article-meta {
+    color:  #EEEEEE;
+    margin: 148px auto auto 20px;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+#top-pick-article div.top-pick-article-meta img.top-pick-article-author-avatar {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 0px;
+    border: 2px solid #999999;
+
+}
+
+#top-pick-article div.top-pick-article-meta p.top-pick-article-author-name {
+    
+}
+
+#top-pick-article div.top-pick-article-meta span.top-pick-article-date {
+   
+}
+
+
+
