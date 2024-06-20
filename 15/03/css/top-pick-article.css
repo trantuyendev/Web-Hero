@@ -6,17 +6,18 @@
 }
 
 #top-pick-article {
-    padding: 48px auto 48px auto;
+    padding: 98px 0px 96px 0px;
     background-color: var(--bg-color);
 
 }
 
-#top-pick-article div.container {}
+#top-pick-article div.container {
+    
+}
 
 #top-pick-article div.container h2.top-pick-article-heading {
     font-family: var(--heading-font);
-    padding-top: 98px;
-    padding-bottom: 26px;
+    margin-bottom: 26px;
     font-size: 26px;
     font-weight: 700;
     text-align: left;
@@ -28,59 +29,58 @@
 #top-pick-article div.top-pick-article-wrapper {
     display: flex;
     gap: 30px;
-    
 }
 
 #top-pick-article article.top-pick-article-item {
     
-
 }
 
 #top-pick-article div.top-pick-article-content {
     background-color: black;
     border-radius: 15px;
-    padding: 0px;
+    position: relative;
+    margin-top: 24px;
 }
 
 
 #top-pick-article div.top-pick-article-content img.top-pick-article-thumb {
     border-radius: 15px;
     opacity: 60%;
-    position: relative;
-
 }
 
 #top-pick-article div.top-pick-article-content div.top-pick-article-info {
-    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 #top-pick-article div.top-pick-article-info h3.top-pick-article-title {
     font-family: var(--primary-font);
     font-size: 24px;
     font-weight: 700;
-    text-align: left;
     color: var(--bg-color);
-    position: absolute;
-
 }
 
 #top-pick-article h3.top-pick-article-title a.top-pick-article-link {
-    position: relative;
-    display: blo;
+   
 }
 
 #top-pick-article div.top-pick-article-info div.top-pick-article-meta {
-    color:  #EEEEEE;
-    margin: 148px auto auto 20px;
+    color: #EEEEEE;
     font-family: var(--primary-font);
     font-size: 18px;
     font-weight: 500;
-    text-align: left;
-
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
 }
 
 #top-pick-article div.top-pick-article-meta img.top-pick-article-author-avatar {
-    position: absolute;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -89,13 +89,6 @@
 
 }
 
-#top-pick-article div.top-pick-article-meta p.top-pick-article-author-name {
-    
-}
+#top-pick-article div.top-pick-article-meta p.top-pick-article-author-name {}
 
-#top-pick-article div.top-pick-article-meta span.top-pick-article-date {
-   
-}
-
-
-
+#top-pick-article div.top-pick-article-meta span.top-pick-article-date {}

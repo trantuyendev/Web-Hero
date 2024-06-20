@@ -1,50 +1,85 @@
-#fashion-style-article{
+#fashion-style-article {
     background-color: var(--bg-lightgrey);
-}
-#fashion-style-article div.container{
-    
+    padding: 96px 0px 96px 0px;
 }
 
-#fashion-style-article h2.fashion-style-article-heading{
-    
+#fashion-style-article h2.fashion-style-article-heading {
+    display: flex;
+    justify-content: space-between;
 }
 
-#fashion-style-article div.container span{
-    
+#fashion-style-article h2 span {
+    color: var(--heading-color);
 }
-#fashion-style-article div.container a.btn-view-more{
+
+#fashion-style-article div.container a.btn-view-more {
+    top: 4px;
+    left: 1052.58px;
+    padding: 6px 20.8px 6px 21px;
+    border-radius: 15px;
+    background-color: var(--btn-bg);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+#fashion-style-article div.container div.fashion-style-article-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 46px;
+}
+
+#fashion-style-article article.fashion-style-article-item {
+    width: calc(100%/3);
+    border-radius: 0px 0px 15px 15px;
+}
+
+#fashion-style-article div.fashion-style-article-content {}
+
+#fashion-style-article img.fashion-style-article-thumb {
+    border-radius: 15px 15px 0px 0px;
 
 }
-#fashion-style-article div.container div.fashion-style-article-wrapper{
-    
+
+#fashion-style-article div.fashion-style-article-info {
+    padding: 25px;
+    background-color: var(--bg-color);
+    border-radius: 0px 0px 15px 15px;
 }
-#fashion-style-article div.fashion-style-article-item{
-    
+
+#fashion-style-article h3.fashion-style-article-title {
+    color: var(--heading-color);
+    font-family: var(--primary-font);
+    font-size: 21.6px;
+    font-weight: 700;
 }
-#fashion-style-article div.fashion-style-article-content{
-    
+
+#fashion-style-article a.fashion-style-article-link {}
+
+#fashion-style-article div.fashion-style-article-meta {
+    margin-top: 17px;
+    display: flex;
+    gap: 10px;
 }
-#fashion-style-article img.fashion-style-article-thumb{
-    
+
+#fashion-style-article img.fashion-style-article-author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
 }
-#fashion-style-article div.fashion-style-article-info{
-    
+
+#fashion-style-article p.fashion-style-article-author-name {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--heading-color);
 }
-#fashion-style-article h3.fashion-style-article-title{
-    
-}
-#fashion-style-article a.fashion-style-article-link{
-    
-}
-#fashion-style-article div.fashion-style-article-meta{
-    
-}
-#fashion-style-article img.fashion-style-article-author-avatar{
-    
-}
-#fashion-style-article p.fashion-style-article-author-name{
-    
-}
-#fashion-style-article span.fashion-style-article-date{
-    
+
+#fashion-style-article span.fashion-style-article-date {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #718096;
 }

@@ -1,0 +1,110 @@
+section#trending-article {
+    background-color: var(--bg-lightgrey);
+    padding: 98px 0px 96px 0px;
+}
+
+section#trending-article div.container-fluid {
+    margin: 0px 48px 0px 48px;
+}
+
+section#trending-article h2.trending-article-heading {
+    font-family: var(--heading-font);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 26px;
+}
+
+section#trending-article div.trending-article-wrapper {
+    display: flex;
+
+}
+
+section#trending-article article.trending-article-item:last-child {
+    display: flex;
+    margin: 0px;
+}
+
+section#trending-article article.trending-article-item {
+    display: flex;
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+section#trending-article div.trending-article-content {
+    display: flex;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+}
+
+section#trending-article img.trending-article-thumb {
+    width: 45%;
+    border-radius: 15px 0px 0px 15px;
+    margin-right: 25px;
+}
+
+section#trending-article div.trending-article-info {
+    padding: 145px 0px 145px 0px;
+}
+
+section#trending-article div.trending-article-info>a.category-label {
+    padding: 5px 19.39px 5px 20px;
+    border-radius: 15px;
+    background-color: #5A67D80D;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+section#trending-article a.category-label {}
+
+section#trending-article h3.trending-article-title {
+    margin-top: 13px;
+}
+
+section#trending-article h3>a.trending-article-link {
+    font-family: var(--primary-font);
+    font-size: 21.6px;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-top: 12px 0px 13px 0px;
+}
+
+section#trending-article div.trending-article-info p.trending-article-description {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #718096;
+    margin-top: 13px;
+
+}
+
+section#trending-article div.trending-article-meta {
+    display: flex;
+    gap: 4px;
+    margin-top: 16px;
+}
+
+section#trending-article div.trending-article-meta img.trending-article-author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+section#trending-article div.trending-article-meta div {}
+
+section#trending-article div.trending-article-meta p.trending-article-author-name {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--heading-color);
+}
+
+section#trending-article div.trending-article-meta span.trending-article-date {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #718096;
+}

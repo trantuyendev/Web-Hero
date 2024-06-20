@@ -1,0 +1,109 @@
+/* Phần bài viết thuộc danh mục Beauty*/
+#beauty-article {
+    background-color: var(--bg-grey);
+    padding: 98px 0px 96px 0px;
+}
+
+#beauty-article div.container {}
+
+#beauty-article h2.beauty-article-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+
+#beauty-article>h2 span {
+    font-family: var(-heading-font);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#beauty-article h2 span {
+    font-family: var(--heading-font);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+#beauty-article h2 a.btn-view-more {
+    background-color: var(--btn-bg);
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 21px;
+}
+
+#beauty-article div.beauty-article-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#beauty-article article.beauty-article-item {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+}
+
+#beauty-article article.beauty-article-item:nth-child(even) {
+    margin-right: 0px;
+}
+
+#beauty-article div.beauty-article-content {
+    display: flex;
+    gap: 15px;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+#beauty-article div.beauty-article-content:not(:last-child) { 
+    margin-bottom:2em; 
+}
+
+
+#beauty-article div.beauty-article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#beauty-article img.beauty-article-thumb {
+    width: calc(100%/ 5 * 2);
+    border-radius: 15px 0px 0px 15px;
+}
+
+#beauty-article h3.beauty-article-title {
+    font-family: var(--primary-font);
+    font-size: 21.6px;
+    font-weight: 700;
+    color: var(--heading-color);
+
+}
+
+#beauty-article h3 a.beauty-article-link {}
+
+#beauty-article div.beauty-article-meta {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+#beauty-article img.beauty-article-author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#beauty-article p.beauty-article-author-name {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--heading-color);
+
+}
+
+#beauty-article span.beauty-article-date {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #718096;
+}
