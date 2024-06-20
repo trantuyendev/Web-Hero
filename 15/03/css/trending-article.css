@@ -17,18 +17,13 @@ section#trending-article h2.trending-article-heading {
 
 section#trending-article div.trending-article-wrapper {
     display: flex;
+    gap: 30px;
 
-}
-
-section#trending-article article.trending-article-item:last-child {
-    display: flex;
-    margin: 0px;
 }
 
 section#trending-article article.trending-article-item {
     display: flex;
-    width: calc((100% - 30px) / 2);
-    margin-right: 30px;
+    width: calc(100% / 2);
     border-radius: 15px;
 }
 

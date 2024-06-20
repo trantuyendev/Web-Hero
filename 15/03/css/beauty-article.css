@@ -40,7 +40,9 @@
 
 #beauty-article article.beauty-article-item {
     width: calc((100% - 30px) / 2);
-    margin-right: 30px;
+    margin:0px 30px 24px 0px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 #beauty-article article.beauty-article-item:nth-child(even) {
@@ -51,24 +53,19 @@
     display: flex;
     gap: 15px;
     background-color: var(--bg-color);
-    border-radius: 15px;
-    margin-bottom: 24px;
 }
-#beauty-article div.beauty-article-content:not(:last-child) { 
-    margin-bottom:2em; 
-}
+
 
 
 #beauty-article div.beauty-article-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 0px 15px 15px 0px;
+
 }
 
 #beauty-article img.beauty-article-thumb {
     width: calc(100%/ 5 * 2);
-    border-radius: 15px 0px 0px 15px;
 }
 
 #beauty-article h3.beauty-article-title {

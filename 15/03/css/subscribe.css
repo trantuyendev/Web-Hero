@@ -11,6 +11,7 @@ section#subscribe div.subscribe-content {
     background-color: var(--bg-color);
     padding: 96px 0px 110px 0px;
     text-align: center;
+    border-radius: 15px;
 }
 
 section#subscribe div.subscribe-content h2.subscribe-heading {
@@ -27,17 +28,112 @@ section#subscribe h2>p.subscribe-description {
     font-weight: 400;
 }
 
-section#subscribe h2>form.subscribe-form {}
+section#subscribe form.subscribe-form {
+    margin-top: 34px;
+    font-family: var(--primary-font);
+}
 
-section#subscribe input.subscribe-input-email {}
+section#subscribe input.subscribe-input-email {
+    width: 400px;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #757575;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 15px;
+}
 
 section#subscribe button.btn-subscribe {
-top: 154.12px;
-left: 514px;
-padding: 13px 36px;
-border-radius: 6px;
-background-color: var(--primary-color);
-color: var(--bg-color);
-margin-top: 34px;
+    padding: 15px 35px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: 1px solid #5A67D8;
+    font-size: 17px;
+    font-weight: 600;
 
 }
+
+/* ----- Footer ---- */
+footer {
+    background-color: var(--bg-color);
+    padding: 64px 0px 69px 0px;
+}
+
+footer div.footer-wrapper {
+    display: flex;
+    font-family: var(--heading-font);
+}
+
+footer div.footer-left {
+    width: 35%;
+    font-family: var(--primary-font)
+}
+
+footer div.footer-left a.main-logo {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+footer div.footer-left a.main-logo i.fa-regular {
+    color: var(--primary-color);
+
+}
+
+footer div.footer-left p.all-rights-reserved {
+    font-size: 18px;
+    font-weight: 400;
+    color: #718096;
+    margin-bottom: 8px;
+}
+
+footer div.footer-left h3.design-by {
+
+    font-size: 17.86px;
+    font-weight: 700;
+    color: var(--heading-color);
+
+}
+
+footer div.footer-left h3.design-by span.design-by-company {
+    color: var(--primary-color);
+}
+
+footer div.footer-right {
+
+    width: 65%;
+
+}
+
+footer div.footer-right div.footer-right-content {
+    display: flex;
+
+
+}
+
+footer div.footer-right div.footer-list-wrapper {
+    width: calc(100% / 3);
+
+}
+
+footer div.footer-right h6.footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+}
+
+footer div.footer-right ul.footer-list {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #718096;
+    margin-bottom: 5px;
+}
+
+footer div.footer-right ul.footer-list li.footer-list-item {}
+
+footer div.footer-right ul.footer-list a.footer-link {}

@@ -1,0 +1,12 @@
+@media screen and (max-width:576px) {
+      body{
+        background-color: yellow;
+
+    }
+    header {
+        padding: 22px 0px;
+    }
+    header nav.navigation-bar {
+       flex-direction: column;
+    }
+}
