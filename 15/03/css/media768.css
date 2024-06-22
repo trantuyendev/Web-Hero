@@ -1,4 +1,4 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) and (min-width: 576px){
     body {}
 
     header {
@@ -50,7 +50,7 @@
         margin: 0px 129px 0px 129px;
     }
     #top-pick-article div.top-pick-article-wrapper {
-        
+        flex-wrap: wrap;
     }
     #top-pick-article article.top-pick-article-item {
         width: calc((100% - 30px) / 2);
