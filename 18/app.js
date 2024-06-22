@@ -5,6 +5,8 @@ let inputLineHeight = document.getElementById("inputLineHeight");
 let slbTextAlign = document.getElementById("slbTextAlign");
 let inputColor = document.getElementById("inputColor");
 
+// Lấy giá trị được lưu load vào mặc định
+elmContent.style.backgroundColor = localStorage.getItem("background-color");
 
 btnFontSizeDecrease.addEventListener("click", function(){
   let style = window.getComputedStyle(elmContent, null).getPropertyValue('font-size');
@@ -33,7 +35,11 @@ slbTextAlign.addEventListener("change", function(){
 });
 function changBackground(elm){
   let style = window.getComputedStyle(elm, null).getPropertyValue('background-color');
-  console.log(style);
+  // 1. tìm tất cả elm có class là btn-background                   listButton = getElementByClassNam
+  // 2. duyệt qua các phần tử trong listButton, và set border: 0px
+  // 3. thêm border: 2px solid #fff; vào elm
+
+  localStorage.setItem("background-color", style);
   elmContent.style.backgroundColor = style;
 }
 
