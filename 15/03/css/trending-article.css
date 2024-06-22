@@ -18,7 +18,6 @@ section#trending-article h2.trending-article-heading {
 section#trending-article div.trending-article-wrapper {
     display: flex;
     gap: 30px;
-
 }
 
 section#trending-article article.trending-article-item {
@@ -53,7 +52,6 @@ section#trending-article div.trending-article-info>a.category-label {
     color: var(--primary-color);
 }
 
-section#trending-article a.category-label {}
 
 section#trending-article h3.trending-article-title {
     margin-top: 13px;
@@ -64,7 +62,7 @@ section#trending-article h3>a.trending-article-link {
     font-size: 21.6px;
     font-weight: 700;
     color: var(--heading-color);
-    margin-top: 12px 0px 13px 0px;
+    margin: 12px 0px 13px 0px;
 }
 
 section#trending-article div.trending-article-info p.trending-article-description {

@@ -1,26 +1,31 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px){
     body {}
 
     header {
-        padding: 22px 0px;
+        padding: 22px 129px;
     }
 
     header nav.navigation-bar {
-        flex-direction: column;
+        display: flex;
+    }
+    /* Phần Danh mục nổi bật  */
+    #featured-categories div.featured-categories-wrapper {
+        padding:72px 129px; 
     }
 
     /* hero-article */
     section#hero-article {
-        padding-top: 0px;
+        padding: 0px 129px;
     }
-
     #hero-article div.hero-article-wrapper {
         padding-top: 0px;
-
     }
+    #hero-article div.container div.hero-article-info-content {
 
-    #hero-article div.hero-article-image {
-        margin: 0px 15px 0px 15px;
+        margin: 0px;
+    }
+    #hero-article div.container div.hero-article-image img.hero-article-thumb {
+        margin-top: 24px;
     }
 
     #featured-categories div.featured-categories-wrapper div.featured-category-item {
@@ -41,16 +46,16 @@
     }
 
     /* top-pick-article */
-    #top-pick-article div.container h2.top-pick-article-heading {
-        margin-bottom: 26px;
-        padding: 96px 0px 40px 15px;
+    section#top-pick-article div.container{
+        margin: 0px 129px 0px 129px;
     }
-
     #top-pick-article div.top-pick-article-wrapper {
-        flex-direction: column;
-        margin: 0px 15px 0px 15px;
+        
     }
-
+    #top-pick-article article.top-pick-article-item {
+        width: calc((100% - 30px) / 2);
+    }
+  
     /* fashion-style-article */
     #fashion-style-article h2.fashion-style-article-heading {
         display: flex;

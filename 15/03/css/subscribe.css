@@ -34,7 +34,7 @@ section#subscribe form.subscribe-form {
 }
 
 section#subscribe input.subscribe-input-email {
-    width: 400px;
+    width: 35%;
     padding: 15px 20px;
     font-size: 17px;
     font-weight: 400;
@@ -103,20 +103,15 @@ footer div.footer-left h3.design-by span.design-by-company {
 }
 
 footer div.footer-right {
-
     width: 65%;
-
 }
 
 footer div.footer-right div.footer-right-content {
     display: flex;
-
-
 }
 
 footer div.footer-right div.footer-list-wrapper {
     width: calc(100% / 3);
-
 }
 
 footer div.footer-right h6.footer-title {
